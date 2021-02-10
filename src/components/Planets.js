@@ -11,8 +11,7 @@ const fetchPlanets = async (key, page) => {
    * * if Using axios
    ** const {data} = await axios.get(`http://swapi.dev/api/planets/?page=${page}`)
    ** return data
-   */ 
-  
+   */
 }
 
 const Planets = () => {

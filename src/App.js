@@ -10,7 +10,6 @@ function App() {
   const [page, setPage] = useState('planets')
   return (
     <QueryClientProvider client={queryClient}>
-
       <div className="App">
         <h1>Star Wars Info</h1>
         <div className="content">
@@ -19,7 +18,7 @@ function App() {
         </div>
       </div>
       <ReactQueryDevtools initialIsOpen={false} />
-      </QueryClientProvider>
+    </QueryClientProvider>
   )
 }
 
