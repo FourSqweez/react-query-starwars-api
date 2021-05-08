@@ -4,12 +4,12 @@ import Planet from './Planet'
 
 const fetchPlanets = async (key, page) => {
   // console.log(page)
-  const res = await fetch(`http://swapi.dev/api/planets/?page=${page}`)
+  const res = await fetch(`https://swapi.dev/api/planets/?page=${page}`)
   return res.json()
 
   /**
    * * if Using axios
-   ** const {data} = await axios.get(`http://swapi.dev/api/planets/?page=${page}`)
+   ** const {data} = await axios.get(`https://swapi.dev/api/planets/?page=${page}`)
    ** return data
    */
 }
